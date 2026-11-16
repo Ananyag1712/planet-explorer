@@ -1,0 +1,99 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080d1b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  background: #111a2e;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 20px 40px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #aab5ca;
+}
+
+.planet-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 30px 8%;
+}
+
+.planet-card {
+  background: #17233b;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.planet-card:hover {
+  transform: translateY(-8px);
+  background: #233451;
+}
+
+.planet-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 25px #ffffff30;
+}
+
+.planet-card h2 {
+  margin-bottom: 10px;
+}
+
+.planet-card p {
+  color: #aab5ca;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #3988ff;
+  color: white;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1768dd;
+}
+
+.details {
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 600px;
+  background: #17233b;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.details p {
+  margin: 15px 0;
+  color: #c4cee0;
+}
